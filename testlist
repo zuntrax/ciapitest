@@ -1,4 +1,1 @@
-ghasj
-gasbv
-gsdzfvon
-4w9ufisda
+[("foo", "sleep 10 && true"), ("bar", "sleep 20 && false")]
