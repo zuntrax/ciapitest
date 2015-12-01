@@ -1,0 +1,21 @@
+# example kevin file
+
+tamale:
+	- env: STUFF="hot hot"
+	sleep 4
+	echo do you like tamale?
+	echo $STUFF tamale?
+	sleep 2
+
+sudo: tamale
+	- hidden
+	sudo echo gschicht
+	return $?
+
+cpuinfo: sudo tamale
+	echo awsum vm:
+	cat /proc/cpuinfo
+
+great_success: cpuinfo
+	echo "raus raus raus, die nyan-katze"
+	return 0
